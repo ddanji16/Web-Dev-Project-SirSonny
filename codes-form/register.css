@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+    background-image: url('./img/catba.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.logo2 img{
+    position: absolute;
+    width: 8vw;
+    border: 2px solid black;
+    box-shadow: 5px 4px 10px black;
+    top: 5%;
+    left: 3%;
+    border-radius: 110px;
+    
+  }
+  .logo2 h2{
+    position: absolute;
+    top: 8%;
+    left: 12%;
+    font-size: 2vw;
+    color: white;
+    text-shadow: 10px 5px 10px rgb(0, 0, 0);
+  }
+  
+  
+  
+  
+.err{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+#createAccountForm{
+    border: 3px solid rgb(7, 5, 5);
+    width: 400px;
+    height: 460px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 450px;
+    margin-top: 150px;
+    border-radius: 40px;
+}
+#createAccountForm form{
+    
+    margin-left: 100px;
+} 
+#createAccountForm label{
+    font-size: 15px;
+    color: rgb(10, 9, 9);
+}  
+#createAccountForm form input{
+  width: 200px;
+  height: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+#createAccountForm form #submit{
+   width: 200px;
+  color: black;
+  height: 20px;
+
+}
+#createAccountForm form #submit:hover{
+  background-color: red;
+}
+select{
+    margin-bottom: 20px;
+    border: 2px solid black;
+    width: 80px;
+    padding: 5px;
+}
+ 
+  
+    
+
+
+  
+  

@@ -1,0 +1,737 @@
+/* styles.css */
+
+/* Global Styles */
+*{
+  margin: 0;
+}
+body {
+ 
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./img/catbalogan.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  
+ 
+  
+  
+  
+ 
+}
+
+
+
+.logo2 img{
+  position: absolute;
+  width: 8vw;
+  border: 2px solid black;
+  box-shadow: 5px 4px 10px black;
+  top: 5%;
+  left: 3%;
+  border-radius: 110px;
+  
+}
+.logo2 h2{
+  position: absolute;
+  top: 8%;
+  left: 12%;
+  font-size: 2vw;
+  color: white;
+  text-shadow: 10px 5px 10px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation bar & Logo */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+header {
+  background: orangered;
+  color: #fff;
+  padding: 100px 0;
+  height: 1vw;
+}
+
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  
+  justify-content: flex-end;
+  margin: 0;
+}
+header nav ul li {
+  margin: 0 10px;
+  margin-top: 3vw;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 6px 5px 5px black;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+  color: black;
+}
+
+header nav ul li a:hover {
+  color: rgb(223, 223, 223);
+}
+header nav ul li:hover{
+  background-color: #302e2e;
+}
+header nav ul li:active{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main Banner Styles */
+.banner {
+
+  color: #ffffff;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.banner-text h2 {
+  font-size: 30px;
+  margin: 0;
+  text-shadow: 10px 10px 10px rgb(0, 0, 0);
+  
+
+  animation: move;
+  animation-duration: 5s;
+  animation-iteration-count: 1; 
+}
+@keyframes move{
+from{margin-top: 20%;}
+to{margin-buttom: 38px;}
+}
+.banner-text p {
+  font-size: 18px;
+  text-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+.banner .cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #e8491d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+  margin-bottom: 20px;
+}
+.banner .cta-btn:hover {
+  background: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Us Section */
+#about .container {
+  background: linear-gradient(rgb(82, 82, 231),rgb(226, 139, 124));
+  padding: 2.6vw 1.042px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-style: double;
+}
+#about h2 {
+  font-size: 2vw;
+}
+#about p {
+  text-align: justify;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+
+
+#about .container .mission{
+  width: 45vw;
+  border: 1px solid black;
+  margin-bottom: 35px;
+  margin-top: 40px;
+  margin-left: 20vw;
+  background-color: #827af7; 
+  box-shadow: 10px 10px 5px;
+  border-radius: 10px;
+  
+}
+
+#about .container .mission:hover{
+  background-color: white;
+}
+#about .container .mission p{
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 50px
+  
+}
+#about .container .mission h1{
+  margin-bottom: 20px;
+
+}
+#about .container .mission button{
+  padding: 6px;
+  width: 7vw;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  background-color: rgb(136, 125, 255);
+  box-shadow: 3px 3px 2px;
+}
+#about .container .mission button:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+#about .container .vision{
+  width: 45vw;
+  border: 1px solid black;
+  margin-left: 20vw;
+  background-color: #fc312a;
+  box-shadow: 10px 10px 5px;
+  border-radius: 10px;
+}
+#about .container .vision:hover{
+  background-color: white;
+ }
+ #about .container .vision p{
+ margin-bottom: 67px;
+ margin-left: 40px;
+ margin-right: 50px
+}
+#about .container .vision h1{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Features Section */
+
+
+.features {
+  background: hwb(0 65% 32%);
+  padding: 10.6vw 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.features .feature-item h3 {
+  font-size: 24px;
+  
+ 
+}
+.features .feature-item p {
+  font-size: 16px;
+}
+#features .container h1{
+  font-size: 2vw;
+  background-color: #707070;
+  color: white;
+  padding: 10px 0;
+}
+.feature-item{
+  border: 1px solid black;
+  display: inline-block;
+  width: 270px;
+  height: 300px;
+  
+}
+
+#features .box-1{
+    margin-top: 200px;   
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+
+  margin-top: 100px;
+  width: 80%;
+  /*
+  animation: slide;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  */
+}
+
+.wrapper img{
+
+  max-width: 25vw;
+  float: left;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+  margin-left: 30px;
+  margin-right: 20px;
+  
+  
+}
+/*
+@keyframes slide{
+
+from{margin-left: 20%;}
+to{margin-left: 38px;}
+}
+*/
+
+
+
+.text-box{  
+  text-align: justify;
+}
+.text-box h3{
+
+   font-size: 1.70vw; 
+   margin-bottom: 30px;
+   margin-left: 30vw;
+   
+     
+}
+.wrapper .text-box p{
+  font-size: 1em;
+  
+  
+  text-align: justify;
+  width: 35vw;
+  margin-left: 30vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Real-Time Alerts Section */
+#alerts .container {
+  background: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+#alerts h2 {
+  font-size: 28px;
+}
+.alert-info {
+  background: #ffe0e0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.alert-high {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Preparedness Guidelines Section */
+#preparedness .container {
+  padding: 50px 20px;
+  background: #fff;
+}
+#preparedness h2 {
+  text-align: center;
+  font-size: 28px;
+}
+#preparedness h3 {
+  font-size: 24px;
+}
+#preparedness ul {
+  list-style: none;
+  padding: 0;
+}
+#preparedness ul li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 5px solid #e8491d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Emergency Contacts Section */
+#contacts .container {
+  background-color: #686565;
+  padding:   45px;
+  height: 100vw;
+  text-align: center;
+  border: 5px solid black;
+  border-style: double;
+
+
+  
+}
+#contacts .container h1 {
+  font-size: 2vw;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #fff9f9;
+  padding: 10px 10px;
+ 
+ 
+ 
+
+}
+#contacts .container h2 {
+  font-size: 2vw;
+  text-align: center;
+}
+#contacts .container p {
+  font-size: 1.10vw;
+  text-align: center;
+}
+#contacts .container h3{
+  font-size: 1.20vw;
+  text-align: center;
+}
+
+.box{
+  display: flex;
+  margin-top: 7vw;  
+
+ 
+}
+.box-2{
+  display: flex;
+}
+
+
+
+
+.CDRRMO{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+  width: 30vw;
+  font-weight: bold;
+  margin-right: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  transition: 0.5s;
+
+}
+.CDRRMO:hover{
+  background-color: red;
+  padding: 2vw 2vw;
+}
+.CDRRMO img{
+  width: 14vw;
+  border-radius: 100px;
+  border: 2px solid black;
+  box-shadow: 8px 2px 5px black;
+}
+
+
+
+.PNP{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+  width: 30vw;
+  font-weight: bold;
+  margin-right: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  transition: 0.5s;
+
+}
+.PNP:hover{
+  background-color: red;
+  padding: 2vw 2vw;
+}
+.PNP img{
+  width: 14vw;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  
+}
+
+
+
+.CWD{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+  width: 30vw;
+  font-weight: bold;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  transition: 0.5s;
+}
+.CWD:hover{
+  background-color: red;
+  padding: 2vw 2vw;
+}
+.CWD img{
+  width: 14vw;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-radius: 100px;
+  box-shadow: 8px 2px 5px black;
+ 
+}
+
+
+.BFP{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 16px;
+  width: 30vw;
+  font-weight: bold;
+  margin-right: 20px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  transition: 0.5s;
+
+  
+
+}
+.BFP:hover{
+  background-color: red;
+  padding: 2vw 2vw;
+}
+.BFP img{
+  width: 14vw;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-radius: 100px;
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Map Section */
+#map .container {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+#map h2 {
+  font-size: 28px;
+}
+
+.map-container {
+  background: #f4f4f4;
+  padding: px;
+  border-radius: 10px;
+}
+iframe{
+  box-shadow: 10px 10px 10px black;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer p {
+  margin: 0;
+}
